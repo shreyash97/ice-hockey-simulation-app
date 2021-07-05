@@ -1,0 +1,1584 @@
+{
+  "leagueName": "Dalhousie Hockey League",
+  "gameplayConfig": {
+    "aging": {
+      "averageRetirementAge": 37,
+      "maximumAge": 47,
+      "statDecayChance": 0.01
+    },
+    "gameResolver": {
+      "randomWinChance": 0.1
+    },
+    "injuries": {
+      "randomInjuryChance": 0.14,
+      "injuryDaysLow": 2,
+      "injuryDaysHigh": 133
+    },
+    "training": {
+      "daysUntilStatIncreaseCheck": 70
+    },
+    "trading": {
+      "lossPoint": 10,
+      "randomTradeOfferChance": 0.02,
+      "maxPlayersPerTrade": 1,
+      "randomAcceptanceChance": 0.32,
+      "gmTable": {
+        "shrewd": -0.1,
+        "normal": 0.0,
+        "gambler": 0.1
+      }
+    }
+  },
+  "conferences": [
+    {
+      "conferenceName": "Eastern Conference",
+      "divisions": [
+        {
+          "divisionName": "Pacific",
+          "teams": [
+          ]
+        },
+        {
+          "divisionName": "Central",
+          "teams": [
+          ]
+        }
+      ]
+    },
+    {
+      "conferenceName": "Western Conference",
+      "divisions": [
+        {
+          "divisionName": "Atlantic",
+          "teams": [
+          ]
+        },
+        {
+          "divisionName": "Metropolitan",
+          "teams": [
+          ]
+        }
+      ]
+    }
+  ],
+  "freeAgents": [
+    {
+      "playerName": "Raghav Halen",
+      "position": "defense",
+      "skating": 6,
+      "shooting": 13,
+      "checking": 16,
+      "saving": 16,
+      "birthDay": 24,
+      "birthMonth": 11,
+      "birthYear": 1992
+    },
+    {
+      "playerName": "Abraham Thomson",
+      "position": "defense",
+      "skating": 1,
+      "shooting": 10,
+      "checking": 15,
+      "saving": 14,
+      "birthDay": 28,
+      "birthMonth": 11,
+      "birthYear": 1990
+    },
+    {
+      "playerName": "Fred Khatri",
+      "position": "goalie",
+      "skating": 1,
+      "shooting": 1,
+      "checking": 6,
+      "saving": 13,
+      "birthDay": 3,
+      "birthMonth": 8,
+      "birthYear": 1989
+    },
+    {
+      "playerName": "Mohammed Plant",
+      "position": "defense",
+      "skating": 6,
+      "shooting": 13,
+      "checking": 4,
+      "saving": 8,
+      "birthDay": 11,
+      "birthMonth": 2,
+      "birthYear": 1996
+    },
+    {
+      "playerName": "Abraham Fei",
+      "position": "goalie",
+      "skating": 6,
+      "shooting": 16,
+      "checking": 16,
+      "saving": 17,
+      "birthDay": 21,
+      "birthMonth": 1,
+      "birthYear": 1989
+    },
+    {
+      "playerName": "Don Fei",
+      "position": "defense",
+      "skating": 17,
+      "shooting": 10,
+      "checking": 19,
+      "saving": 4,
+      "birthDay": 15,
+      "birthMonth": 11,
+      "birthYear": 1988
+    },
+    {
+      "playerName": "Mohammed Rogers",
+      "position": "goalie",
+      "skating": 8,
+      "shooting": 6,
+      "checking": 16,
+      "saving": 17,
+      "birthDay": 22,
+      "birthMonth": 7,
+      "birthYear": 1997
+    },
+    {
+      "playerName": "Prabhjot Burbchuk",
+      "position": "goalie",
+      "skating": 17,
+      "shooting": 13,
+      "checking": 8,
+      "saving": 17,
+      "birthDay": 25,
+      "birthMonth": 12,
+      "birthYear": 1997
+    },
+    {
+      "playerName": "Tina Bonham",
+      "position": "forward",
+      "skating": 18,
+      "shooting": 9,
+      "checking": 9,
+      "saving": 16,
+      "birthDay": 4,
+      "birthMonth": 6,
+      "birthYear": 1993
+    },
+    {
+      "playerName": "Don Jones",
+      "position": "goalie",
+      "skating": 6,
+      "shooting": 11,
+      "checking": 4,
+      "saving": 16,
+      "birthDay": 13,
+      "birthMonth": 2,
+      "birthYear": 1995
+    },
+    {
+      "playerName": "Mary Halen",
+      "position": "goalie",
+      "skating": 1,
+      "shooting": 2,
+      "checking": 4,
+      "saving": 9,
+      "birthDay": 9,
+      "birthMonth": 6,
+      "birthYear": 1994
+    },
+    {
+      "playerName": "Shakuntala Plant",
+      "position": "goalie",
+      "skating": 13,
+      "shooting": 14,
+      "checking": 2,
+      "saving": 18,
+      "birthDay": 12,
+      "birthMonth": 1,
+      "birthYear": 2000
+    },
+    {
+      "playerName": "Rashita Khatri",
+      "position": "forward",
+      "skating": 6,
+      "shooting": 15,
+      "checking": 2,
+      "saving": 16,
+      "birthDay": 15,
+      "birthMonth": 1,
+      "birthYear": 1997
+    },
+    {
+      "playerName": "Wen Thomson",
+      "position": "defense",
+      "skating": 16,
+      "shooting": 12,
+      "checking": 12,
+      "saving": 1,
+      "birthDay": 2,
+      "birthMonth": 2,
+      "birthYear": 1997
+    },
+    {
+      "playerName": "Pat Fei",
+      "position": "defense",
+      "skating": 14,
+      "shooting": 3,
+      "checking": 19,
+      "saving": 11,
+      "birthDay": 7,
+      "birthMonth": 12,
+      "birthYear": 1986
+    },
+    {
+      "playerName": "Fred Patel",
+      "position": "goalie",
+      "skating": 4,
+      "shooting": 18,
+      "checking": 8,
+      "saving": 14,
+      "birthDay": 10,
+      "birthMonth": 9,
+      "birthYear": 1985
+    },
+    {
+      "playerName": "Chris Nelson",
+      "position": "goalie",
+      "skating": 20,
+      "shooting": 12,
+      "checking": 4,
+      "saving": 12,
+      "birthDay": 26,
+      "birthMonth": 10,
+      "birthYear": 1992
+    },
+    {
+      "playerName": "Tina Hawkey",
+      "position": "forward",
+      "skating": 12,
+      "shooting": 12,
+      "checking": 16,
+      "saving": 14,
+      "birthDay": 20,
+      "birthMonth": 9,
+      "birthYear": 2002
+    },
+    {
+      "playerName": "Mohammed Halen",
+      "position": "goalie",
+      "skating": 11,
+      "shooting": 15,
+      "checking": 10,
+      "saving": 12,
+      "birthDay": 23,
+      "birthMonth": 1,
+      "birthYear": 1990
+    },
+    {
+      "playerName": "Rahul Liu",
+      "position": "forward",
+      "skating": 2,
+      "shooting": 2,
+      "checking": 1,
+      "saving": 5,
+      "birthDay": 6,
+      "birthMonth": 3,
+      "birthYear": 1996
+    },
+    {
+      "playerName": "Zongming Page",
+      "position": "forward",
+      "skating": 9,
+      "shooting": 1,
+      "checking": 8,
+      "saving": 17,
+      "birthDay": 12,
+      "birthMonth": 1,
+      "birthYear": 1999
+    },
+    {
+      "playerName": "Roger Liu",
+      "position": "forward",
+      "skating": 20,
+      "shooting": 12,
+      "checking": 18,
+      "saving": 11,
+      "birthDay": 5,
+      "birthMonth": 7,
+      "birthYear": 1991
+    },
+    {
+      "playerName": "Prabhjot Bishop",
+      "position": "forward",
+      "skating": 1,
+      "shooting": 1,
+      "checking": 8,
+      "saving": 1,
+      "birthDay": 21,
+      "birthMonth": 2,
+      "birthYear": 1990
+    },
+    {
+      "playerName": "Rob Morrison",
+      "position": "forward",
+      "skating": 11,
+      "shooting": 10,
+      "checking": 20,
+      "saving": 20,
+      "birthDay": 8,
+      "birthMonth": 5,
+      "birthYear": 1985
+    },
+    {
+      "playerName": "Don Wu",
+      "position": "goalie",
+      "skating": 5,
+      "shooting": 20,
+      "checking": 7,
+      "saving": 15,
+      "birthDay": 19,
+      "birthMonth": 4,
+      "birthYear": 1991
+    },
+    {
+      "playerName": "Mozhgan Bonham",
+      "position": "defense",
+      "skating": 1,
+      "shooting": 4,
+      "checking": 4,
+      "saving": 8,
+      "birthDay": 10,
+      "birthMonth": 9,
+      "birthYear": 1994
+    },
+    {
+      "playerName": "Mohammed Page",
+      "position": "forward",
+      "skating": 12,
+      "shooting": 8,
+      "checking": 8,
+      "saving": 19,
+      "birthDay": 5,
+      "birthMonth": 7,
+      "birthYear": 1999
+    },
+    {
+      "playerName": "Mohammed Jones",
+      "position": "forward",
+      "skating": 2,
+      "shooting": 19,
+      "checking": 8,
+      "saving": 17,
+      "birthDay": 9,
+      "birthMonth": 7,
+      "birthYear": 1987
+    },
+    {
+      "playerName": "Nancy Page",
+      "position": "goalie",
+      "skating": 19,
+      "shooting": 10,
+      "checking": 15,
+      "saving": 8,
+      "birthDay": 10,
+      "birthMonth": 4,
+      "birthYear": 1988
+    },
+    {
+      "playerName": "Wen Williamson",
+      "position": "goalie",
+      "skating": 19,
+      "shooting": 17,
+      "checking": 12,
+      "saving": 10,
+      "birthDay": 20,
+      "birthMonth": 5,
+      "birthYear": 1988
+    },
+    {
+      "playerName": "Roger Halen",
+      "position": "defense",
+      "skating": 12,
+      "shooting": 18,
+      "checking": 14,
+      "saving": 10,
+      "birthDay": 6,
+      "birthMonth": 6,
+      "birthYear": 1988
+    },
+    {
+      "playerName": "Wen Hawkey",
+      "position": "forward",
+      "skating": 4,
+      "shooting": 18,
+      "checking": 20,
+      "saving": 1,
+      "birthDay": 15,
+      "birthMonth": 8,
+      "birthYear": 1998
+    },
+    {
+      "playerName": "Fred Hawkey",
+      "position": "defense",
+      "skating": 7,
+      "shooting": 2,
+      "checking": 1,
+      "saving": 7,
+      "birthDay": 4,
+      "birthMonth": 6,
+      "birthYear": 2002
+    },
+    {
+      "playerName": "Zongming Hawkins",
+      "position": "goalie",
+      "skating": 3,
+      "shooting": 6,
+      "checking": 10,
+      "saving": 8,
+      "birthDay": 2,
+      "birthMonth": 1,
+      "birthYear": 1991
+    },
+    {
+      "playerName": "Mary Halen",
+      "position": "forward",
+      "skating": 7,
+      "shooting": 14,
+      "checking": 17,
+      "saving": 17,
+      "birthDay": 11,
+      "birthMonth": 12,
+      "birthYear": 2001
+    },
+    {
+      "playerName": "Rob Liu",
+      "position": "goalie",
+      "skating": 7,
+      "shooting": 7,
+      "checking": 8,
+      "saving": 8,
+      "birthDay": 18,
+      "birthMonth": 12,
+      "birthYear": 1986
+    },
+    {
+      "playerName": "Mozhgan Plant",
+      "position": "defense",
+      "skating": 20,
+      "shooting": 19,
+      "checking": 2,
+      "saving": 8,
+      "birthDay": 2,
+      "birthMonth": 12,
+      "birthYear": 1988
+    },
+    {
+      "playerName": "Tina Nelson",
+      "position": "goalie",
+      "skating": 16,
+      "shooting": 4,
+      "checking": 7,
+      "saving": 11,
+      "birthDay": 11,
+      "birthMonth": 11,
+      "birthYear": 1999
+    },
+    {
+      "playerName": "Rashita Singh",
+      "position": "defense",
+      "skating": 18,
+      "shooting": 17,
+      "checking": 14,
+      "saving": 15,
+      "birthDay": 1,
+      "birthMonth": 6,
+      "birthYear": 2000
+    },
+    {
+      "playerName": "Don Halen",
+      "position": "defense",
+      "skating": 5,
+      "shooting": 11,
+      "checking": 13,
+      "saving": 10,
+      "birthDay": 10,
+      "birthMonth": 9,
+      "birthYear": 1996
+    },
+    {
+      "playerName": "Hardik Liu",
+      "position": "forward",
+      "skating": 13,
+      "shooting": 9,
+      "checking": 3,
+      "saving": 7,
+      "birthDay": 23,
+      "birthMonth": 7,
+      "birthYear": 1995
+    },
+    {
+      "playerName": "Prabhjot Hendrix",
+      "position": "forward",
+      "skating": 4,
+      "shooting": 4,
+      "checking": 5,
+      "saving": 9,
+      "birthDay": 12,
+      "birthMonth": 1,
+      "birthYear": 1990
+    },
+    {
+      "playerName": "Rahul Halen",
+      "position": "defense",
+      "skating": 4,
+      "shooting": 9,
+      "checking": 11,
+      "saving": 4,
+      "birthDay": 13,
+      "birthMonth": 10,
+      "birthYear": 2002
+    },
+    {
+      "playerName": "Zongming Fei",
+      "position": "forward",
+      "skating": 18,
+      "shooting": 4,
+      "checking": 13,
+      "saving": 3,
+      "birthDay": 23,
+      "birthMonth": 5,
+      "birthYear": 1985
+    },
+    {
+      "playerName": "Shakuntala Thomson",
+      "position": "forward",
+      "skating": 9,
+      "shooting": 5,
+      "checking": 7,
+      "saving": 11,
+      "birthDay": 13,
+      "birthMonth": 12,
+      "birthYear": 1985
+    },
+    {
+      "playerName": "Walter Chang",
+      "position": "forward",
+      "skating": 1,
+      "shooting": 7,
+      "checking": 13,
+      "saving": 3,
+      "birthDay": 9,
+      "birthMonth": 7,
+      "birthYear": 1990
+    },
+    {
+      "playerName": "Rahul Williamson",
+      "position": "defense",
+      "skating": 16,
+      "shooting": 10,
+      "checking": 1,
+      "saving": 1,
+      "birthDay": 11,
+      "birthMonth": 11,
+      "birthYear": 1999
+    },
+    {
+      "playerName": "Fred Nelson",
+      "position": "goalie",
+      "skating": 14,
+      "shooting": 1,
+      "checking": 7,
+      "saving": 19,
+      "birthDay": 2,
+      "birthMonth": 3,
+      "birthYear": 1990
+    },
+    {
+      "playerName": "Mary Wu",
+      "position": "defense",
+      "skating": 8,
+      "shooting": 13,
+      "checking": 18,
+      "saving": 18,
+      "birthDay": 22,
+      "birthMonth": 3,
+      "birthYear": 2000
+    },
+    {
+      "playerName": "Rashita Chang",
+      "position": "forward",
+      "skating": 4,
+      "shooting": 3,
+      "checking": 6,
+      "saving": 9,
+      "birthDay": 13,
+      "birthMonth": 3,
+      "birthYear": 1991
+    },
+    {
+      "playerName": "Don Wu",
+      "position": "defense",
+      "skating": 11,
+      "shooting": 12,
+      "checking": 19,
+      "saving": 14,
+      "birthDay": 17,
+      "birthMonth": 2,
+      "birthYear": 1997
+    },
+    {
+      "playerName": "Jimmy Page",
+      "position": "goalie",
+      "skating": 1,
+      "shooting": 8,
+      "checking": 14,
+      "saving": 4,
+      "birthDay": 19,
+      "birthMonth": 1,
+      "birthYear": 1990
+    },
+    {
+      "playerName": "Fred Fei",
+      "position": "defense",
+      "skating": 9,
+      "shooting": 7,
+      "checking": 17,
+      "saving": 8,
+      "birthDay": 12,
+      "birthMonth": 3,
+      "birthYear": 1985
+    },
+    {
+      "playerName": "Shakuntala Marley",
+      "position": "goalie",
+      "skating": 4,
+      "shooting": 16,
+      "checking": 20,
+      "saving": 1,
+      "birthDay": 23,
+      "birthMonth": 9,
+      "birthYear": 1991
+    },
+    {
+      "playerName": "Nancy Patel",
+      "position": "defense",
+      "skating": 10,
+      "shooting": 15,
+      "checking": 17,
+      "saving": 6,
+      "birthDay": 13,
+      "birthMonth": 8,
+      "birthYear": 1996
+    },
+    {
+      "playerName": "Tina Hawkey",
+      "position": "defense",
+      "skating": 8,
+      "shooting": 1,
+      "checking": 14,
+      "saving": 14,
+      "birthDay": 15,
+      "birthMonth": 5,
+      "birthYear": 2001
+    },
+    {
+      "playerName": "Rob Patel",
+      "position": "forward",
+      "skating": 6,
+      "shooting": 4,
+      "checking": 7,
+      "saving": 14,
+      "birthDay": 8,
+      "birthMonth": 1,
+      "birthYear": 1985
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Don Marley",
+      "skating": 0.02,
+      "shooting": 0.88,
+      "checking": 0.21,
+      "saving": 1.0
+    },
+    {
+      "name": "Prabhjot Greenbaum",
+      "skating": 0.72,
+      "shooting": 0.13,
+      "checking": 0.64,
+      "saving": 0.61
+    },
+    {
+      "name": "John Nelson",
+      "skating": 0.82,
+      "shooting": 0.31,
+      "checking": 0.47,
+      "saving": 0.4
+    },
+    {
+      "name": "Karan Fei",
+      "skating": 0.62,
+      "shooting": 0.71,
+      "checking": 0.94,
+      "saving": 0.25
+    },
+    {
+      "name": "Mozhgan Cherry",
+      "skating": 0.89,
+      "shooting": 0.61,
+      "checking": 0.43,
+      "saving": 0.76
+    },
+    {
+      "name": "Mozhgan Singh",
+      "skating": 0.69,
+      "shooting": 0.06,
+      "checking": 0.17,
+      "saving": 0.35
+    },
+    {
+      "name": "Mohammed Hawkins",
+      "skating": 0.27,
+      "shooting": 0.84,
+      "checking": 0.71,
+      "saving": 0.9
+    },
+    {
+      "name": "Mike Samson",
+      "skating": 0.79,
+      "shooting": 0.23,
+      "checking": 0.56,
+      "saving": 0.57
+    },
+    {
+      "name": "Rashita Rogers",
+      "skating": 0.72,
+      "shooting": 0.59,
+      "checking": 0.24,
+      "saving": 0.48
+    },
+    {
+      "name": "Rashita Halen",
+      "skating": 0.89,
+      "shooting": 0.69,
+      "checking": 0.03,
+      "saving": 0.88
+    },
+    {
+      "name": "Fred Burbchuk",
+      "skating": 0.31,
+      "shooting": 0.91,
+      "checking": 0.11,
+      "saving": 0.75
+    },
+    {
+      "name": "Wen Jones",
+      "skating": 0.51,
+      "shooting": 0.48,
+      "checking": 0.97,
+      "saving": 0.27
+    },
+    {
+      "name": "Raghav Smith",
+      "skating": 0.98,
+      "shooting": 0.14,
+      "checking": 0.71,
+      "saving": 0.97
+    },
+    {
+      "name": "Walter Jones",
+      "skating": 0.07,
+      "shooting": 0.98,
+      "checking": 0.2,
+      "saving": 0.98
+    },
+    {
+      "name": "Walter Chang",
+      "skating": 0.43,
+      "shooting": 0.85,
+      "checking": 0.12,
+      "saving": 0.25
+    },
+    {
+      "name": "Abraham Samson",
+      "skating": 0.45,
+      "shooting": 0.35,
+      "checking": 0.97,
+      "saving": 0.34
+    },
+    {
+      "name": "Abraham Smith",
+      "skating": 0.3,
+      "shooting": 0.03,
+      "checking": 0.26,
+      "saving": 0.97
+    },
+    {
+      "name": "Fred Greenbaum",
+      "skating": 0.47,
+      "shooting": 0.18,
+      "checking": 0.34,
+      "saving": 0.33
+    },
+    {
+      "name": "Tami Samson",
+      "skating": 0.99,
+      "shooting": 0.91,
+      "checking": 0.72,
+      "saving": 0.88
+    },
+    {
+      "name": "Mozhgan Patel",
+      "skating": 0.74,
+      "shooting": 0.34,
+      "checking": 0.18,
+      "saving": 0.22
+    },
+    {
+      "name": "Raghav Khatri",
+      "skating": 0.57,
+      "shooting": 0.23,
+      "checking": 0.1,
+      "saving": 0.57
+    },
+    {
+      "name": "Zongming Bonham",
+      "skating": 0.07,
+      "shooting": 0.08,
+      "checking": 0.36,
+      "saving": 0.1
+    },
+    {
+      "name": "Karan Burbchuk",
+      "skating": 0.14,
+      "shooting": 0.85,
+      "checking": 0.47,
+      "saving": 0.24
+    },
+    {
+      "name": "Tina Williamson",
+      "skating": 0.95,
+      "shooting": 0.16,
+      "checking": 0.63,
+      "saving": 0.75
+    },
+    {
+      "name": "Don Patel",
+      "skating": 0.7,
+      "shooting": 0.82,
+      "checking": 0.83,
+      "saving": 0.44
+    },
+    {
+      "name": "Sammy Bonham",
+      "skating": 0.58,
+      "shooting": 0.61,
+      "checking": 0.39,
+      "saving": 0.75
+    },
+    {
+      "name": "Don Chang",
+      "skating": 0.0,
+      "shooting": 0.44,
+      "checking": 0.2,
+      "saving": 0.19
+    },
+    {
+      "name": "Roger Bishop",
+      "skating": 0.28,
+      "shooting": 0.31,
+      "checking": 0.03,
+      "saving": 0.45
+    },
+    {
+      "name": "Mary Hendrix",
+      "skating": 0.11,
+      "shooting": 0.89,
+      "checking": 0.9,
+      "saving": 0.85
+    },
+    {
+      "name": "Prashant Hendrix",
+      "skating": 0.57,
+      "shooting": 0.6,
+      "checking": 0.73,
+      "saving": 0.48
+    },
+    {
+      "name": "Mike Plant",
+      "skating": 0.57,
+      "shooting": 0.39,
+      "checking": 0.74,
+      "saving": 0.71
+    },
+    {
+      "name": "Rashita Nelson",
+      "skating": 0.44,
+      "shooting": 0.71,
+      "checking": 0.23,
+      "saving": 0.89
+    },
+    {
+      "name": "Karan Hawkins",
+      "skating": 0.27,
+      "shooting": 0.48,
+      "checking": 0.54,
+      "saving": 0.66
+    },
+    {
+      "name": "Mozhgan Halen",
+      "skating": 0.85,
+      "shooting": 0.09,
+      "checking": 0.59,
+      "saving": 0.99
+    },
+    {
+      "name": "Hardik Chang",
+      "skating": 0.04,
+      "shooting": 0.39,
+      "checking": 0.0,
+      "saving": 0.66
+    },
+    {
+      "name": "Mike Khatri",
+      "skating": 0.4,
+      "shooting": 0.77,
+      "checking": 0.33,
+      "saving": 0.95
+    },
+    {
+      "name": "Hardik Page",
+      "skating": 0.93,
+      "shooting": 0.48,
+      "checking": 0.22,
+      "saving": 0.88
+    },
+    {
+      "name": "Mike Samson",
+      "skating": 0.17,
+      "shooting": 0.3,
+      "checking": 0.5,
+      "saving": 0.66
+    },
+    {
+      "name": "Hardik Samson",
+      "skating": 0.31,
+      "shooting": 0.22,
+      "checking": 0.08,
+      "saving": 0.54
+    },
+    {
+      "name": "Walter Liu",
+      "skating": 0.82,
+      "shooting": 0.12,
+      "checking": 0.65,
+      "saving": 0.14
+    },
+    {
+      "name": "Sai Hawkins",
+      "skating": 0.12,
+      "shooting": 0.22,
+      "checking": 0.58,
+      "saving": 0.67
+    },
+    {
+      "name": "Abraham Samson",
+      "skating": 0.8,
+      "shooting": 0.89,
+      "checking": 0.24,
+      "saving": 0.47
+    },
+    {
+      "name": "Prashant Nelson",
+      "skating": 0.0,
+      "shooting": 0.13,
+      "checking": 0.02,
+      "saving": 0.97
+    },
+    {
+      "name": "Mike Marley",
+      "skating": 0.43,
+      "shooting": 0.76,
+      "checking": 0.5,
+      "saving": 0.8
+    },
+    {
+      "name": "Mary Smith",
+      "skating": 0.22,
+      "shooting": 0.11,
+      "checking": 0.19,
+      "saving": 0.42
+    },
+    {
+      "name": "Mohammed Patel",
+      "skating": 0.58,
+      "shooting": 0.02,
+      "checking": 0.39,
+      "saving": 0.69
+    },
+    {
+      "name": "Hardik Marley",
+      "skating": 0.41,
+      "shooting": 0.01,
+      "checking": 0.17,
+      "saving": 0.96
+    },
+    {
+      "name": "Rahul Hawkey",
+      "skating": 0.16,
+      "shooting": 0.87,
+      "checking": 0.89,
+      "saving": 0.03
+    },
+    {
+      "name": "Mozhgan Bonham",
+      "skating": 0.99,
+      "shooting": 0.63,
+      "checking": 0.22,
+      "saving": 0.92
+    },
+    {
+      "name": "Fred Liu",
+      "skating": 0.62,
+      "shooting": 0.65,
+      "checking": 0.57,
+      "saving": 0.37
+    },
+    {
+      "name": "Rahul Hawkins",
+      "skating": 0.46,
+      "shooting": 0.73,
+      "checking": 0.98,
+      "saving": 0.04
+    },
+    {
+      "name": "Mary Hendrix",
+      "skating": 0.57,
+      "shooting": 0.65,
+      "checking": 0.92,
+      "saving": 0.25
+    },
+    {
+      "name": "Walter Greenbaum",
+      "skating": 0.25,
+      "shooting": 0.24,
+      "checking": 0.32,
+      "saving": 0.77
+    },
+    {
+      "name": "Abraham Chang",
+      "skating": 0.83,
+      "shooting": 0.65,
+      "checking": 0.06,
+      "saving": 0.08
+    },
+    {
+      "name": "Rashita Hendrix",
+      "skating": 0.78,
+      "shooting": 0.62,
+      "checking": 0.96,
+      "saving": 1.0
+    },
+    {
+      "name": "Raghav Plant",
+      "skating": 0.18,
+      "shooting": 0.5,
+      "checking": 0.08,
+      "saving": 0.13
+    },
+    {
+      "name": "Walter Thomson",
+      "skating": 0.87,
+      "shooting": 0.42,
+      "checking": 0.51,
+      "saving": 0.72
+    },
+    {
+      "name": "Raghav Smith",
+      "skating": 0.39,
+      "shooting": 0.27,
+      "checking": 0.51,
+      "saving": 0.32
+    },
+    {
+      "name": "Jimmy Burbchuk",
+      "skating": 0.09,
+      "shooting": 0.93,
+      "checking": 0.01,
+      "saving": 0.91
+    },
+    {
+      "name": "Tina Bonham",
+      "skating": 0.25,
+      "shooting": 0.7,
+      "checking": 0.21,
+      "saving": 0.79
+    },
+    {
+      "name": "Jimmy Bonham",
+      "skating": 0.01,
+      "shooting": 0.87,
+      "checking": 0.07,
+      "saving": 0.18
+    },
+    {
+      "name": "Tina Wu",
+      "skating": 0.38,
+      "shooting": 0.17,
+      "checking": 0.07,
+      "saving": 0.54
+    },
+    {
+      "name": "Wen Page",
+      "skating": 0.34,
+      "shooting": 0.65,
+      "checking": 0.25,
+      "saving": 0.37
+    },
+    {
+      "name": "Nancy Morrison",
+      "skating": 0.79,
+      "shooting": 0.99,
+      "checking": 0.39,
+      "saving": 0.04
+    },
+    {
+      "name": "Rashita Smith",
+      "skating": 0.59,
+      "shooting": 0.68,
+      "checking": 0.71,
+      "saving": 0.39
+    },
+    {
+      "name": "Walter Chang",
+      "skating": 0.06,
+      "shooting": 0.1,
+      "checking": 0.79,
+      "saving": 0.69
+    },
+    {
+      "name": "Mike Marley",
+      "skating": 0.61,
+      "shooting": 0.44,
+      "checking": 0.09,
+      "saving": 0.1
+    },
+    {
+      "name": "Karan Marley",
+      "skating": 0.96,
+      "shooting": 0.91,
+      "checking": 0.22,
+      "saving": 1.0
+    },
+    {
+      "name": "Nancy Singh",
+      "skating": 0.27,
+      "shooting": 0.35,
+      "checking": 0.3,
+      "saving": 0.84
+    },
+    {
+      "name": "Karan Fei",
+      "skating": 0.31,
+      "shooting": 0.85,
+      "checking": 0.39,
+      "saving": 0.82
+    },
+    {
+      "name": "Pat Chang",
+      "skating": 0.62,
+      "shooting": 0.24,
+      "checking": 0.63,
+      "saving": 0.14
+    },
+    {
+      "name": "Mike Fei",
+      "skating": 0.78,
+      "shooting": 0.27,
+      "checking": 0.76,
+      "saving": 0.8
+    },
+    {
+      "name": "Abraham Morrison",
+      "skating": 0.1,
+      "shooting": 0.17,
+      "checking": 0.18,
+      "saving": 0.83
+    }
+  ],
+  "generalManagers": [
+    {
+      "name": "Raghav Patel",
+      "personality": "normal"
+    },
+    {
+      "name": "Wen Rogers",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Prashant Plant",
+      "personality": "gambler"
+    },
+    {
+      "name": "Fred Williamson",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Tina Rogers",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Walter Williamson",
+      "personality": "gambler"
+    },
+    {
+      "name": "Wen Rogers",
+      "personality": "gambler"
+    },
+    {
+      "name": "John Nelson",
+      "personality": "gambler"
+    },
+    {
+      "name": "Wen Smith",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Mozhgan Wu",
+      "personality": "gambler"
+    },
+    {
+      "name": "Karan Morrison",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Sammy Liu",
+      "personality": "gambler"
+    },
+    {
+      "name": "Don Hawkey",
+      "personality": "gambler"
+    },
+    {
+      "name": "Nancy Marley",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Shakuntala Hawkey",
+      "personality": "normal"
+    },
+    {
+      "name": "Mary Chang",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Mary Khatri",
+      "personality": "normal"
+    },
+    {
+      "name": "John Khatri",
+      "personality": "gambler"
+    },
+    {
+      "name": "Roger Wu",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Raghav Hawkey",
+      "personality": "gambler"
+    },
+    {
+      "name": "Abraham Singh",
+      "personality": "gambler"
+    },
+    {
+      "name": "Pat Smith",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Rashita Wu",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Rashita Chang",
+      "personality": "gambler"
+    },
+    {
+      "name": "Sammy Plant",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Wen Burbchuk",
+      "personality": "normal"
+    },
+    {
+      "name": "Chris Hendrix",
+      "personality": "normal"
+    },
+    {
+      "name": "Tina Hendrix",
+      "personality": "normal"
+    },
+    {
+      "name": "Tina Halen",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Don Patel",
+      "personality": "normal"
+    },
+    {
+      "name": "Nancy Fei",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Don Rogers",
+      "personality": "normal"
+    },
+    {
+      "name": "Rahul Nelson",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Abraham Liu",
+      "personality": "normal"
+    },
+    {
+      "name": "Bonnie Plant",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Zongming Liu",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Sai Singh",
+      "personality": "gambler"
+    },
+    {
+      "name": "Abraham Chang",
+      "personality": "normal"
+    },
+    {
+      "name": "Roger Plant",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Mohammed Wu",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Rashita Burbchuk",
+      "personality": "normal"
+    },
+    {
+      "name": "Chris Rogers",
+      "personality": "normal"
+    },
+    {
+      "name": "John Plant",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Mozhgan Greenbaum",
+      "personality": "normal"
+    },
+    {
+      "name": "Prabhjot Wu",
+      "personality": "normal"
+    },
+    {
+      "name": "Hardik Smith",
+      "personality": "gambler"
+    },
+    {
+      "name": "Zongming Smith",
+      "personality": "normal"
+    },
+    {
+      "name": "Don Morrison",
+      "personality": "normal"
+    },
+    {
+      "name": "Hardik Morrison",
+      "personality": "gambler"
+    },
+    {
+      "name": "Shakuntala Smith",
+      "personality": "shrewd"
+    },
+    {
+      "name": "John Burbchuk",
+      "personality": "gambler"
+    },
+    {
+      "name": "Shakuntala Khatri",
+      "personality": "gambler"
+    },
+    {
+      "name": "Nancy Page",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Fred Greenbaum",
+      "personality": "shrewd"
+    },
+    {
+      "name": "John Chang",
+      "personality": "normal"
+    },
+    {
+      "name": "Karan Hendrix",
+      "personality": "normal"
+    },
+    {
+      "name": "Sammy Williamson",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Tami Khatri",
+      "personality": "normal"
+    },
+    {
+      "name": "Mohammed Chang",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Zongming Chang",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Walter Liu",
+      "personality": "shrewd"
+    },
+    {
+      "name": "John Cherry",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Tina Hendrix",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Fred Khatri",
+      "personality": "normal"
+    },
+    {
+      "name": "Mohammed Singh",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Walter Singh",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Wen Liu",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Chris Chang",
+      "personality": "gambler"
+    },
+    {
+      "name": "Abraham Halen",
+      "personality": "gambler"
+    },
+    {
+      "name": "Prabhjot Burbchuk",
+      "personality": "gambler"
+    },
+    {
+      "name": "Pat Cherry",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Rashita Fei",
+      "personality": "gambler"
+    },
+    {
+      "name": "Mike Burbchuk",
+      "personality": "normal"
+    },
+    {
+      "name": "Chris Hawkins",
+      "personality": "gambler"
+    },
+    {
+      "name": "Tina Liu",
+      "personality": "normal"
+    },
+    {
+      "name": "John Page",
+      "personality": "gambler"
+    },
+    {
+      "name": "Wen Patel",
+      "personality": "gambler"
+    },
+    {
+      "name": "Karan Hawkey",
+      "personality": "gambler"
+    },
+    {
+      "name": "Mozhgan Williamson",
+      "personality": "normal"
+    },
+    {
+      "name": "Walter Hawkey",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Prashant Hendrix",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Nancy Thomson",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Raghav Khatri",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Nancy Bishop",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Sammy Marley",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Rashita Thomson",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Abraham Burbchuk",
+      "personality": "gambler"
+    },
+    {
+      "name": "Rashita Halen",
+      "personality": "normal"
+    },
+    {
+      "name": "Zongming Hendrix",
+      "personality": "normal"
+    },
+    {
+      "name": "Fred Hawkey",
+      "personality": "gambler"
+    },
+    {
+      "name": "Chris Liu",
+      "personality": "normal"
+    },
+    {
+      "name": "Rahul Burbchuk",
+      "personality": "shrewd"
+    },
+    {
+      "name": "Mohammed Smith",
+      "personality": "normal"
+    },
+    {
+      "name": "Mike Wu",
+      "personality": "shrewd"
+    }
+  ]
+}

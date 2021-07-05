@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+        </Console>
+        <File name="DraftLogsFile" fileName="logs/draft.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+        <File name="TrophyLogsFile" fileName="logs/trophy.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+        <File name="GameSimulationLogsFile" fileName="logs/gameSimulation.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+        <File name="TradingLogsFile" fileName="logs/trading.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.groupten.statemachine.simulation.draft.strategy.WeakTeamPicksFirstStrategy" level="info" addivity="false">
+            <AppenderRef ref="DraftLogsFile" />
+        </Logger>
+        <Logger name="com.groupten.statemachine.simulation.trophy.Trophy" level="info" addivity="false">
+            <AppenderRef ref="TrophyLogsFile" />
+        </Logger>
+        <Logger name="com.groupten.statemachine.simulation.simulategame.strategy.AlgoStrategy" level="info" addivity="false">
+            <AppenderRef ref="GameSimulationLogsFile" />
+        </Logger>
+        <Logger name="com.groupten.statemachine.simulation.trading" level="info" addivity="false">
+            <AppenderRef ref="TradingLogsFile" />
+        </Logger>
+        <Root level="info" additivity="false">
+            <AppenderRef ref="Console" />
+        </Root>
+    </Loggers>
+</Configuration>
